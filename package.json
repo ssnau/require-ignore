@@ -1,0 +1,29 @@
+{
+  "name": "require-ignore",
+  "version": "1.0.0",
+  "description": "ignore requiring certain extensions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssnau/require-ignore.git"
+  },
+  "keywords": [
+    "require",
+    "ignore"
+  ],
+  "author": "ssnau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssnau/require-ignore/issues"
+  },
+  "homepage": "https://github.com/ssnau/require-ignore",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
