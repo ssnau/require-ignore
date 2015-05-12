@@ -11,11 +11,11 @@ function ignore(exts) {
         });
 }
 
-module.exports.install = function install(extenstions) {
+module.exports.install = function install(extensions) {
     // just ignore
-    if (Array.isArray(extenstions) || typeof exts === 'string') {
+    if (Array.isArray(extensions) || typeof extensions === 'string') {
         return ignore([].concat(extensions));
     } else {
-        throw new Error('illegal extenstions parameter');
+        throw new Error('illegal extensions parameter');
     }
 }
